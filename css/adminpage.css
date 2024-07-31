@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+    align-items: center;
+}
+
+.main-box {
+    /* width: 60%; */
+    /* height: 680px; */
+    background-color: white;
+    border: 1px solid rgb(174, 172, 172);
+    border-radius: 100px 30px 100px 30px;
+    box-shadow: 45px 45px 1px rgb(228, 228, 228);
+    padding: 17px;
+    /* align-self: center; */
+}

@@ -1,0 +1,7 @@
+.navbar {
+    border-bottom: 2px solid #0082fd;
+    display: inline-block;
+    margin: 0 auto ;
+    position: fixed;
+    /* color: rgb(101, 101, 101); */
+}
