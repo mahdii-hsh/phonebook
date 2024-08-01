@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    font-size: xx-large;
+    color: #0082fd;
+}
+
+.main-box {
+    /* width: 60%; */
+    /* height: 680px; */
+    background-color: white;
+    border: 1px solid rgb(174, 172, 172);
+    border-radius: 150px 30px 150px 30px;
+    box-shadow: 45px 45px 1px rgb(228, 228, 228);
+    padding: 17px;
+    /* align-self: center; */
+}
+.form-label{
+    font-size: x-small;
+}
+.form-control{
+    font-size: x-small;
+}
+.form-select{
+    font-size: x-small;
+}
+.form-check{
+    font-size: x-small;
+}

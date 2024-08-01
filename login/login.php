@@ -14,7 +14,7 @@ $_SESSION['userName'] = "";
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/login.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../js/loign.js"></script>
+    <script src="../js/login.js"></script>
 </head>
 
 <body class="bg-light d-flex flex-column">
@@ -85,8 +85,6 @@ if (isset($_POST['userName'])) {
         echo "<script>document.getElementById('userName').style.color='green'</script>";
         echo "<script>document.getElementById('personIcon').style.display='none'</script>";
         echo "<script>document.getElementById('checkUserIcon').style.display='block'</script>";
-
-        echo "fee";
         if ($dbPassword == base64_encode($_POST['password'])) {
             $_SESSION['userName'] = base64_encode($userName);
             echo '<script> window.location="../adminpage/adminpage.php"; </script> ';
