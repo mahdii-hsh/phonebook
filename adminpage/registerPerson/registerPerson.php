@@ -18,11 +18,9 @@ if (empty($_SESSION['userName'])) {
 </head>
 
 <body class="bg-light d-flex flex-column">
-    <?php
-    include '../navbar.php';
-    ?>
+
     <div class="container d-flex align-items-center justify-content-center my-auto">
-        <form class="row align-items-center justify-content-center mt-5 main-box d-flex col-11 col-md-10 col-lg-8" method="post" action="" enctype="multipart/form-data">
+        <form class="row align-items-center justify-content-center mt-5 main-box d-flex col-11 col-md-10 col-lg-8" method="post" action="./addNumber.php" enctype="multipart/form-data">
             <div class="title col-12"><b>PhoneBook</b></div>
             <div class="col-6 col-sm-5 mt-1">
                 <label for="FName-input" class="form-label">First Name</label>
