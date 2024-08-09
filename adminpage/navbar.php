@@ -18,7 +18,7 @@ $userName = $_SESSION["userName"];
                     <a class="nav-link" href="./registerPerson/registerPerson.php">AddPerson</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/PhoneBook/adminpage/showPerson.php">Persons</a>
+                    <a class="nav-link" href="./showPerson.php">Persons</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../login/login.php">Log out</a>
